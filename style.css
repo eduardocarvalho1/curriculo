@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding:0;
+    background: url(bg.jpg) no-repeat;
+    background-size:cover;
+}
+.box{
+    width: 450px;
+    text-align: center;
+    padding: 40px;
+    background:rgba(0, 0, 0, 0.4);
+    margin:auto;
+    margin-top:3%;
+
+}
+.box-img{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    
+}
+    .box .text h1{
+        font-family:'Aldrich',  sans-serif;
+        color:white;
+        letter-spacing: 2px;
+        text-shadow: 1px 1px white;
+
+    }
+    .box .text h2{
+        font-family:'Aldrich',  sans-serif;
+        color:white;
+        letter-spacing: 1px;
+        font-size: 20px;
+      ;
+    }
+    .box .text p{
+        font-family: 'Aldrich', sans-serif;
+color:white;
+text-align: justify;
+    }
+    .box .logos ul{
+        margin:0;
+        padding:0;
+
+    }
+    .box .logos li{
+        display: inline-block;
+       margin: 13px;
+        list-style:none;
+    }
+    .box .logos li a{
+        color: white;
+        font-size: 50px;
+        text-decoration: none;
+        transition: all ease-in-out 500ms;
+    }
+    .box .logos li a:hover{
+        color: #b9b9b9;
+    }
